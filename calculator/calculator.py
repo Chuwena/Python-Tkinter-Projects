@@ -84,10 +84,6 @@ class MyCalculator:
         result = eval(self.entry_value)
         self.variable.set(result)
 
-    def delete_field(self):
-        #self.entry_value =
-        self.variable.set(self.entry_value)
-
     def clear_field(self):
         self.entry_value = ""
         self.variable.set(self.entry_value)
