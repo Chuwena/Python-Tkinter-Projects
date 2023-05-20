@@ -1,4 +1,0 @@
-Hi it's me Chuwena, Hi
-
-To use the code without any errors, 
-make sure to install Pillow, tkinter libraries.
