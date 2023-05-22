@@ -8,6 +8,8 @@ class MyCalculator:
         self.root.geometry("500x550")
         self.root.resizable(False, False)
         self.root.title("My Calculator")
+        icon = ImageTk.PhotoImage(file="Calculator Icon.png")
+        self.root.iconphoto(True, icon)
         self.variable = StringVar()
         self.entry_value = ""
 
